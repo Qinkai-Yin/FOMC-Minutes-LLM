@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+html2text
+tqdm
+pandas
+scikit-learn
+sentence-transformers
+transformers
+accelerate
+torch
+python-dotenv
+streamlit

@@ -14,5 +14,9 @@
   {
     "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20250618.htm",
     "text_path": "data/text/https-www-federalreserve-gov-monetarypolicy-fomcminutes20250618-htm.txt"
+  },
+  {
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20250730.htm",
+    "text_path": "data/text/https-www-federalreserve-gov-monetarypolicy-fomcminutes20250730-htm.txt"
   }
 ]
