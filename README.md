@@ -27,20 +27,22 @@ It fetches minutes from federalreserve.gov, chunks & embeds them locally, and us
 ---
 
 ## 🧭 Project structure
-app/
-fetch_minutes.py # fetch HTML -> text
-build_index.py # build embeddings + chunks
-rag_cli.py # command-line Q&A
-streamlit_app.py # web UI
-data/
-raw/ # original HTML
-text/ # cleaned .txt
-index/
-embeddings.npy # float32 matrix (normalized)
-chunks.json # chunks + metadata (incl. source_url)
-.gitignore
-LICENSE (MIT)
-README.md
+.
+├─ app/
+│  ├─ fetch_minutes.py        # Fetch HTML → text
+│  ├─ build_index.py          # Build embeddings + chunks
+│  ├─ rag_cli.py              # Command-line Q&A
+│  └─ streamlit_app.py        # Web UI
+├─ data/
+│  ├─ raw/                    # Original HTML
+│  └─ text/                   # Cleaned .txt
+├─ index/
+│  ├─ embeddings.npy          # float32 matrix (normalized)
+│  └─ chunks.json             # Chunks + metadata (incl. source_url)
+├─ .gitignore
+├─ LICENSE (MIT)
+└─ README.md
+
 
 ## 🚀 Quickstart
 
