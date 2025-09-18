@@ -27,7 +27,7 @@ It fetches minutes from federalreserve.gov, chunks & embeds them locally, and us
 ---
 
 ## 🧭 Project structure
-.
+'''
 ├─ app/
 │  ├─ fetch_minutes.py        # Fetch HTML → text
 │  ├─ build_index.py          # Build embeddings + chunks
@@ -42,7 +42,7 @@ It fetches minutes from federalreserve.gov, chunks & embeds them locally, and us
 ├─ .gitignore
 ├─ LICENSE (MIT)
 └─ README.md
-
+'''
 
 ## 🚀 Quickstart
 
