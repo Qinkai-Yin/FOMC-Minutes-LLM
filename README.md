@@ -5,7 +5,7 @@ Mini LLM project for FOMC meeting minutes Q&amp;A
 A tiny, practical Retrieval-Augmented Generation (RAG) app to query **Federal Reserve FOMC meeting minutes**.  
 It fetches minutes from federalreserve.gov, chunks & embeds them locally, and uses a small local T5 model to answer questions with citations.
 
-![Demo](Users/qinkaiyin/Screenshot.png)
+![Demo](pic/Screenshot.png)
 
 <p align="left">
   <a href="https://github.com/Qinkai-Yin/FOMC-Minutes-LLM/stargazers"><img src="https://img.shields.io/github/stars/Qinkai-Yin/FOMC-Minutes-LLM?style=social" /></a>
